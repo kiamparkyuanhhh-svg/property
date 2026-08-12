@@ -1,0 +1,55 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+locale: "zh_Hans"
+
+collections:
+  - name: "properties"
+    label: "房源 Listings"
+    files:
+      - name: "list"
+        label: "所有房源"
+        file: "data/properties.json"
+        fields:
+          - label: "房源列表"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title}} — {{fields.region}}"
+            fields:
+              - { label: "标题 Title", name: "title", widget: "string" }
+              - { label: "地区 Region", name: "region", widget: "string" }
+              - label: "类型 Category"
+                name: "category"
+                widget: "select"
+                options: ["Condo", "Terrace", "Semi-D", "Bungalow", "Apartment"]
+              - label: "买 / 租 Purpose"
+                name: "purpose"
+                widget: "select"
+                options: ["Sale", "Rent"]
+              - { label: "价格 Price (例: RM 620,000 或 RM 1,300 / mo)", name: "price", widget: "string" }
+              - { label: "睡房 Beds", name: "beds", widget: "number", value_type: "int" }
+              - { label: "浴室 Baths", name: "baths", widget: "number", value_type: "int" }
+              - { label: "面积 Sqft (例: 1,150 sqft)", name: "sqft", widget: "string" }
+              - { label: "照片 Photo", name: "image", widget: "image" }
+
+  - name: "profile"
+    label: "我的简介 My Profile"
+    files:
+      - name: "profile"
+        label: "个人资料"
+        file: "data/profile.json"
+        fields:
+          - { label: "姓名 Name", name: "name", widget: "string" }
+          - { label: "简介 Bio", name: "bio", widget: "text" }
+          - { label: "执照号 REN No. (例: REN 12345)", name: "ren", widget: "string" }
+          - { label: "成交数 Deals closed (例: 120+)", name: "deals", widget: "string" }
+          - { label: "评分 Rating (例: 4.9 / 5)", name: "rating", widget: "string" }
+          - { label: "电话显示文字 (例: +60 12-345 6789)", name: "phone_display", widget: "string" }
+          - { label: "拨号用号码 (例: +60123456789)", name: "phone_tel", widget: "string" }
+          - { label: "WhatsApp 号码 (格式: 60123456789，不要加 + 号或空格)", name: "whatsapp", widget: "string" }
+          - { label: "邮箱 Email", name: "email", widget: "string" }
+          - { label: "头像照片 Photo", name: "photo", widget: "image" }

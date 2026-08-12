@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Property Listings | Your Trusted Agent in Johor Bahru</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#" class="brand">
+      <span class="brand-mark">JB</span>
+      <span class="brand-name" id="brandName">Your Name<br><small>Property Consultant</small></span>
+    </a>
+    <nav class="main-nav">
+      <a href="#listings">Listings</a>
+      <a href="#profile">About Me</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#chat" class="btn btn-ghost">Chat with Me</a>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">Johor Bahru &amp; Iskandar Puteri</p>
+    <h1>Find a home that<br>actually fits your life.</h1>
+    <p class="hero-sub">Every listing here has been walked through, photographed, and priced by me personally — no surprises, no middlemen.</p>
+
+    <form class="search-bar" id="searchForm">
+      <div class="search-field">
+        <label for="searchInput">Keyword</label>
+        <input type="text" id="searchInput" placeholder="Try “Bukit Indah” or “Austin”">
+      </div>
+      <div class="search-field">
+        <label for="regionSelect">Area</label>
+        <select id="regionSelect">
+          <option value="all">All areas</option>
+        </select>
+      </div>
+      <div class="search-field">
+        <label for="typeSelect">Purpose</label>
+        <select id="typeSelect">
+          <option value="all">Sale &amp; Rent</option>
+          <option value="Sale">For Sale</option>
+          <option value="Rent">For Rent</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-primary">Search</button>
+    </form>
+  </div>
+</section>
+
+<!-- ============ CATEGORY CHIPS ============ -->
+<section class="categories" id="listings">
+  <div class="section-inner">
+    <div class="section-head">
+      <p class="eyebrow">Browse by property type</p>
+      <h2>Listings ticket board</h2>
+    </div>
+    <div class="chip-row" id="categoryChips">
+      <button class="chip active" data-category="all">All</button>
+      <button class="chip" data-category="Condo">Condo</button>
+      <button class="chip" data-category="Terrace">Terrace House</button>
+      <button class="chip" data-category="Semi-D">Semi-D</button>
+      <button class="chip" data-category="Bungalow">Bungalow</button>
+      <button class="chip" data-category="Apartment">Apartment</button>
+    </div>
+
+    <div class="listing-grid" id="listingGrid">
+      <!-- property cards injected by script.js -->
+    </div>
+
+    <p class="empty-state" id="emptyState" hidden>No listings match that search yet — try a different area or keyword.</p>
+  </div>
+</section>
+
+<!-- ============ PROFILE ============ -->
+<section class="profile" id="profile">
+  <div class="section-inner profile-inner">
+    <div class="profile-photo">
+      <img id="profilePhoto" src="images/agent-photo.jpg" alt="Photo of your agent" onerror="this.src='https://placehold.co/480x560/0f3d3e/f4f6f5?text=Your+Photo'">
+    </div>
+    <div class="profile-content">
+      <p class="eyebrow">About your agent</p>
+      <h2>Hi, I'm <span id="profileName">[Your Name]</span>.</h2>
+      <p class="profile-bio" id="profileBio">
+        I've been helping buyers, sellers, and tenants across Johor Bahru and Iskandar Puteri find the
+        right property for [X] years. I believe in straight answers, fast
+        replies, and never pushing a listing that doesn't actually fit what you need.
+      </p>
+      <ul class="profile-stats">
+        <li><strong id="statRen">REN 00000</strong><span>Registered Negotiator No.</span></li>
+        <li><strong id="statDeals">120+</strong><span>Properties closed</span></li>
+        <li><strong id="statRating">4.9 / 5</strong><span>Client rating</span></li>
+      </ul>
+      <div class="profile-actions">
+        <a href="#chat" class="btn btn-primary">Chat with me now</a>
+        <a href="tel:+60123456789" class="btn btn-outline" id="callBtn">Call directly</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CHAT / CONTACT ============ -->
+<section class="contact" id="contact">
+  <div class="section-inner contact-inner" id="chat">
+    <div class="contact-card">
+      <p class="eyebrow">Get in touch</p>
+      <h2>Have a question about a unit?<br>Just message me.</h2>
+      <p class="contact-sub">Fill this in and it opens straight into WhatsApp — I usually reply within the hour during working days.</p>
+
+      <form class="chat-form" id="chatForm">
+        <div class="form-row">
+          <label for="nameInput">Your name</label>
+          <input type="text" id="nameInput" required placeholder="e.g. Wei Lin">
+        </div>
+        <div class="form-row">
+          <label for="propertyInput">Which listing? (optional)</label>
+          <input type="text" id="propertyInput" placeholder="e.g. Bukit Indah, 3BR Condo">
+        </div>
+        <div class="form-row">
+          <label for="messageInput">Message</label>
+          <textarea id="messageInput" rows="3" required placeholder="Hi, I'd like to know more about..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-wide">Open WhatsApp Chat</button>
+      </form>
+    </div>
+
+    <div class="contact-side">
+      <div class="contact-detail">
+        <span class="label">WhatsApp / Phone</span>
+        <span class="value" id="contactPhone">+60 12-345 6789</span>
+      </div>
+      <div class="contact-detail">
+        <span class="label">Email</span>
+        <span class="value" id="contactEmail">you@example.com</span>
+      </div>
+      <div class="contact-detail">
+        <span class="label">Office hours</span>
+        <span class="value">Mon–Sat, 9am – 7pm</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> <span id="footerName">Your Name</span> Property Consultant · Johor Bahru</p>
+</footer>
+
+<script src="script.js"></script>
+
+<!-- 用于后台登入邀请邮件的跳转，跟前台显示内容无关，不用理会 -->
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+</body>
+</html>

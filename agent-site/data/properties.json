@@ -1,0 +1,70 @@
+{
+  "items": [
+    {
+      "title": "3BR Condo with City View",
+      "region": "Bukit Indah",
+      "category": "Condo",
+      "purpose": "Sale",
+      "price": "RM 620,000",
+      "beds": 3,
+      "baths": 2,
+      "sqft": "1,150 sqft",
+      "image": "images/listing-1.jpg"
+    },
+    {
+      "title": "Renovated Double-Storey Terrace",
+      "region": "Austin Heights",
+      "category": "Terrace",
+      "purpose": "Sale",
+      "price": "RM 780,000",
+      "beds": 4,
+      "baths": 3,
+      "sqft": "1,800 sqft",
+      "image": "images/listing-2.jpg"
+    },
+    {
+      "title": "Fully Furnished Studio",
+      "region": "Skudai",
+      "category": "Apartment",
+      "purpose": "Rent",
+      "price": "RM 1,300 / mo",
+      "beds": 1,
+      "baths": 1,
+      "sqft": "500 sqft",
+      "image": "images/listing-3.jpg"
+    },
+    {
+      "title": "Corner Semi-D, Gated & Guarded",
+      "region": "Nusajaya",
+      "category": "Semi-D",
+      "purpose": "Sale",
+      "price": "RM 1,450,000",
+      "beds": 5,
+      "baths": 4,
+      "sqft": "2,900 sqft",
+      "image": "images/listing-4.jpg"
+    },
+    {
+      "title": "Modern Bungalow with Pool",
+      "region": "Iskandar Puteri",
+      "category": "Bungalow",
+      "purpose": "Sale",
+      "price": "RM 2,850,000",
+      "beds": 6,
+      "baths": 5,
+      "sqft": "4,200 sqft",
+      "image": "images/listing-5.jpg"
+    },
+    {
+      "title": "2BR Serviced Apartment",
+      "region": "Tebrau",
+      "category": "Condo",
+      "purpose": "Rent",
+      "price": "RM 1,800 / mo",
+      "beds": 2,
+      "baths": 2,
+      "sqft": "850 sqft",
+      "image": "images/listing-6.jpg"
+    }
+  ]
+}
