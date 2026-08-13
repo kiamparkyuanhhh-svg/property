@@ -1,70 +1,81 @@
 {
   "items": [
     {
-      "title": "3BR Condo with City View",
-      "region": "Bukit Indah",
-      "category": "Condo",
+      "title": "Midori Green @ Austin Heights",
+      "region": "Austin Heights",
+      "category": "Apartment",
       "purpose": "Sale",
-      "price": "RM 620,000",
-      "beds": 3,
-      "baths": 2,
-      "sqft": "1,150 sqft",
+      "price": "RM 365,000",
+      "beds": 2,
+      "baths": 1,
+      "sqft": "Build up 786sqft",
       "image": "images/2.jpeg"
     },
     {
-      "title": "Renovated Double-Storey Terrace",
-      "region": "Austin Heights",
-      "category": "Terrace",
+      "title": "Setia indah 10",
+      "region": "Setia indah",
+      "category": "Double storey",
       "purpose": "Sale",
-      "price": "RM 780,000",
+      "price": "RM 720,000 nego",
       "beds": 4,
       "baths": 3,
-      "sqft": "1,800 sqft",
-      "image": "images/listing-2.jpg"
+      "sqft": "20*70 sqft",
+      "image": "images/3.jpeg"
     },
     {
-      "title": "Fully Furnished Studio",
-      "region": "Skudai",
+      "title": "Double Storey cluster corner",
+      "region": "Eco cascadia",
+      "category": "Double Storey cluster",
+      "purpose": "Sale",
+      "price": "RM 1.98 mil nego",
+      "beds": 3,
+      "baths": 3,
+      "sqft": "22*75 sqft",
+      "image": "images/4.jpeg"
+    },
+    {
+      "title": "Double Storey Terrace House",
+      "region": "Seri asutin",
+      "category": "Double storey",
+      "purpose": "Sale",
+      "price": "RM 888,000",
+      "beds": 4,
+      "baths": 4,
+      "sqft": "22*75 sqft",
+      "image": "images/5.jpeg"
+    },
+    {
+      "title": "Sky Suites @ Bukit Meldrum",
+      "region": "JB town",
       "category": "Apartment",
       "purpose": "Rent",
-      "price": "RM 1,300 / mo",
+      "price": "RM 2000/M",
       "beds": 1,
       "baths": 1,
-      "sqft": "500 sqft",
-      "image": "images/listing-3.jpg"
+      "sqft": "570 sqft",
+      "image": "images/6.jpeg"
     },
     {
-      "title": "Corner Semi-D, Gated & Guarded",
-      "region": "Nusajaya",
-      "category": "Semi-D",
+      "title": "Senibong Cove @ Isola Granduer",
+      "region": "Senibong Cove",
+      "category": "3 Storey Bungalow",
       "purpose": "Sale",
-      "price": "RM 1,450,000",
-      "beds": 5,
-      "baths": 4,
-      "sqft": "2,900 sqft",
-      "image": "images/listing-4.jpg"
-    },
-    {
-      "title": "Modern Bungalow with Pool",
-      "region": "Iskandar Puteri",
-      "category": "Bungalow",
-      "purpose": "Sale",
-      "price": "RM 2,850,000",
+      "price": "RM 4.1mil",
       "beds": 6,
-      "baths": 5,
-      "sqft": "4,200 sqft",
-      "image": "images/listing-5.jpg"
+      "baths": 6,
+      "sqft": "48*180 sqft",
+      "image": "images/7.jpeg"
     },
     {
-      "title": "2BR Serviced Apartment",
-      "region": "Tebrau",
-      "category": "Condo",
+      "title": "Johor Jaya Double Storey",
+      "region": "Johor Jaya",
+      "category": "Double Storey",
       "purpose": "Rent",
-      "price": "RM 1,800 / mo",
-      "beds": 2,
+      "price": "RM 1400/m",
+      "beds": 3,
       "baths": 2,
-      "sqft": "850 sqft",
-      "image": "images/listing-6.jpg"
+      "sqft": "14*55 sqft",
+      "image": "images/8.jpeg"
     }
   ]
 }
