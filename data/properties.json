@@ -76,6 +76,17 @@
       "baths": 2,
       "sqft": "14*55 sqft",
       "image": "images/8.jpeg"
+    },
+    {
+      "title": "Parc Regency",
+      "region": "Plentong",
+      "category": "Apartment",
+      "purpose": "Rent",
+      "price": "RM 2600/m",
+      "beds": 3,
+      "baths": 2,
+      "sqft": "810 sqft",
+      "image": "images/9.jpeg"
     }
   ]
 }
