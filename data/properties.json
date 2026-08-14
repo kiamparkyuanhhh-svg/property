@@ -87,6 +87,94 @@
       "baths": 2,
       "sqft": "810 sqft",
       "image": "images/9.jpeg"
+    },
+    {
+      "title": "Aurora @ Setia Eco Cascadia",
+      "region": "Eco Cascadia",
+      "category": "Double Storey",
+      "purpose": "Rent",
+      "price": "RM 3500/m",
+      "beds": 4,
+      "baths": 4,
+      "sqft": "20 X 80 (Intermediate Lot)",
+      "image": "images/11.jpeg"
+    },
+    {
+      "title": "Pasir gudang",
+      "region": "Pasir gudang",
+      "category": "Double Storey",
+      "purpose": "Rent",
+      "price": "RM 1700 nett /m",
+      "beds": 4,
+      "baths": 3,
+      "sqft": "18*65 sqft",
+      "image": "images/12.jpeg"
+    },
+    {
+      "title": "Austin Duta 5",
+      "region": "Mount Austin",
+      "category": "Double Storey",
+      "purpose": "Rent",
+      "price": "RM 2300/m",
+      "beds": 4,
+      "baths": 3,
+      "sqft": "1570 sqft",
+      "image": "images/13.jpeg"
+    },
+    {
+      "title": "Austin Perdana @ Jalan Austin Perdana ",
+      "region": "Austin Perdana",
+      "category": "Double Storey",
+      "purpose": "Rent",
+      "price": "RM 3400 nett /m",
+      "beds": 5,
+      "baths": 3,
+      "sqft": "42*75 sqft",
+      "image": "images/14.jpeg"
+    },
+    {
+      "title": "@ Puri Residence",
+      "region": "Pasir gudang",
+      "category": "Double Storey",
+      "purpose": "Rent",
+      "price": "RM 1800/m",
+      "beds": 4,
+      "baths": 3,
+      "sqft": "20*65 sqft",
+      "image": "images/15.jpeg"
+    },
+    {
+      "title": "Taman Mount Austin @ Austin Residence",
+      "region": "Mount Austin",
+      "category": "Single storey",
+      "purpose": "Rent",
+      "price": "RM 2000/m",
+      "beds": 4,
+      "baths": 2,
+      "sqft": "20*70 sqft",
+      "image": "images/16.jpeg"
+    },
+    {
+      "title": "JB Town Near CIQ",
+      "region": "JB town",
+      "category": "Double Storey",
+      "purpose": "Rent",
+      "price": "RM 4000/m",
+      "beds": 4,
+      "baths": 3,
+      "sqft": "- sqft",
+      "image": "images/17.jpeg"
+    },
+    {
+      "title": "Mount Austin Double Storey Terrace",
+      "region": "Mount Austin",
+      "category": "Double Storey",
+      "purpose": "Rent",
+      "price": "RM 2600/m",
+      "beds": 4,
+      "baths": 3,
+      "sqft": "20*70 sqft",
+      "image": "images/18.jpeg"
     }
   ]
 }
