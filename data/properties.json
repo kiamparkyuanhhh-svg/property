@@ -2,7 +2,7 @@
   "items": [
     {
       "title": "Midori Green @ Austin Heights",
-      "region": "Austin Heights",
+      "region": "Mount Austin",
       "category": "Apartment",
       "purpose": "Sale",
       "price": "RM 365,000",
@@ -175,6 +175,61 @@
       "baths": 3,
       "sqft": "20*70 sqft",
       "image": "images/18.jpeg"
+    },
+     {
+      "title": "Taman daya Double Storey",
+      "region": "Taman daya",
+      "category": "Double Storey",
+      "purpose": "Sale",
+      "price": "RM 468k",
+      "beds": 3,
+      "baths": 2,
+      "sqft": " 14*55 sqft",
+      "image": "images/20.jpeg"
+    },
+    {
+      "title": "Desa Tebrau @ Tebrau Ria Unblock View",
+      "region": "Desa Tebrau",
+      "category": "Double Storey",
+      "purpose": "Sale",
+      "price": "RM 758k",
+      "beds": 4,
+      "baths": 4,
+      "sqft": "20*70 sqft",
+      "image": "images/21.jpeg"
+    },
+    {
+      "title": "Austin Duta",
+      "region": "Austin Duta",
+      "category": "Double Storey",
+      "purpose": "Sale",
+      "price": "RM 950k",
+      "beds": 4,
+      "baths": 3,
+      "sqft": "42*70 sqft",
+      "image": "images/22.jpeg"
+    },
+    {
+      "title": "Nusa Damai",
+      "region": "Pasir gudang",
+      "category": "Double Storey",
+      "purpose": "Sale",
+      "price": "RM 370k",
+      "beds": 3,
+      "baths": 2,
+      "sqft": "775 sqft",
+      "image": "images/23.jpeg"
+    },
+    {
+      "title": "Eco Summer @ Eco Spring",
+      "region": "Eco Summer",
+      "category": "Double Storey",
+      "purpose": "Sale",
+      "price": "RM 1.18mil",
+      "beds": 4,
+      "baths": 3,
+      "sqft": "30*80 sqft",
+      "image": "images/24.jpeg"
     }
   ]
 }
