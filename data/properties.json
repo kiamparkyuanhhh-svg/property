@@ -230,6 +230,50 @@
       "baths": 3,
       "sqft": "30*80 sqft",
       "image": "images/24.jpeg"
+    },
+    {
+      "title": "One 49 Residence @ Pandan",
+      "region": "Pandan",
+      "category": "Apartment",
+      "purpose": "Rent",
+      "price": "RM 2300/m",
+      "beds": 3,
+      "baths": 2,
+      "sqft": "875 sqft",
+      "image": "images/30.jpeg"
+    },
+    {
+      "title": "Amansari / Anjung Seri",
+      "region": "Seri alam",
+      "category": "Studio",
+      "purpose": "Rent",
+      "price": "RM 1200/m",
+      "beds": 1,
+      "baths": 1,
+      "sqft": "550 sqft",
+      "image": "images/31.jpeg"
+    },
+    {
+      "title": "1 Medini / One Medini ",
+      "region": "Medini / Iskandar Puteri",
+      "category": "Apartment",
+      "purpose": "Rent",
+      "price": "RM 2100/m",
+      "beds": 2,
+      "baths": 2,
+      "sqft": "1019 sqft",
+      "image": "images/32.jpeg"
+    },
+    {
+      "title": "Cube 8 Teens",
+      "region": "Mount Austin",
+      "category": "Apartment",
+      "purpose": "Rent",
+      "price": "RM 1800/m",
+      "beds": 2,
+      "baths": 2,
+      "sqft": "800 sqft",
+      "image": "images/33.jpeg"
     }
   ]
 }
