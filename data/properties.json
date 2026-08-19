@@ -274,6 +274,50 @@
       "baths": 2,
       "sqft": "800 sqft",
       "image": "images/33.jpeg"
+    },
+    {
+      "title": "Seri Austin",
+      "region": "Seri Austin",
+      "category": "Single storey",
+      "purpose": "Sale",
+      "price": "RM 578,000",
+      "beds": 3,
+      "baths": 2,
+      "sqft": "20*70 sqft",
+      "image": "images/40.jpeg"
+    },
+    {
+      "title": "Nusa Damai",
+      "region": "Pasir gudang",
+      "category": "2/3 storey shoplot",
+      "purpose": "Rent",
+      "price": "RM 4500/m",
+      "beds": 0,
+      "baths": 0,
+      "sqft": "22*70 sqft",
+      "image": "images/41.jpeg"
+    },
+    {
+      "title": "Ponderosa villa",
+      "region": "Molek",
+      "category": "Semi D",
+      "purpose": "Rent",
+      "price": "RM 4950/m",
+      "beds": 4,
+      "baths": 5,
+      "sqft": "40*80 sqft",
+      "image": "images/42.jpeg"
+    },
+    {
+      "title": "Bandar Layangkasa @ Pasir Gudang",
+      "region": "Pasir gudang",
+      "category": "Double Storey",
+      "purpose": "Rent",
+      "price": "RM 1600/m",
+      "beds": 4,
+      "baths": 3,
+      "sqft": "20*60 sqft",
+      "image": "images/43.jpeg"
     }
   ]
 }
