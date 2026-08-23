@@ -318,6 +318,28 @@
       "baths": 3,
       "sqft": "20*60 sqft",
       "image": "images/43.jpeg"
+    },
+    {
+      "title": "Pulai Perdana @ Kangkar Pulai",
+      "region": "Kangkar Pulai",
+      "category": "Double Storey",
+      "purpose": "Sale",
+      "price": "RM 940k",
+      "beds": 4,
+      "baths": 3,
+      "sqft": "35*70 sqft",
+      "image": "images/44.jpeg"
+    },
+    {
+      "title": "Greenway @ Bestari Perdana Pasir Gudang",
+      "region": "Pasir gudang",
+      "category": "Double Storey",
+      "purpose": "Rent",
+      "price": "RM 2200/m",
+      "beds": 4,
+      "baths": 3,
+      "sqft": "22*70 sqft",
+      "image": "images/45.jpeg"
     }
   ]
 }
