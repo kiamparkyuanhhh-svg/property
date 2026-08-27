@@ -340,6 +340,83 @@
       "baths": 3,
       "sqft": "22*70 sqft",
       "image": "images/45.jpeg"
+    },
+    {
+      "title": "3-Storey Bungalow @ Taman Desa Tebrau",
+      "region": "Desa Tebrau",
+      "category": "3-Storey Bungalow",
+      "purpose": "Sale",
+      "price": "RM 4.88mil",
+      "beds": 7,
+      "baths": 7,
+      "sqft": "6000 sqft",
+      "image": "images/50.jpeg"
+    },
+    {
+      "title": "Twin Galaxy @ Taman Abad",
+      "region": "JB town",
+      "category": "Studio",
+      "purpose": "Sale",
+      "price": "RM RM470,000",
+      "beds": 1,
+      "baths": 1,
+      "sqft": "- sqft",
+      "image": "images/51.jpeg"
+    },
+    {
+      "title": "GKSL D'Esplanade Residence",
+      "region": "Pasir gudang",
+      "category": "Double Storey",
+      "purpose": "Sale and rent",
+      "price": "RM 830,000 / RM 3000/m",
+      "beds": 2,
+      "baths": 2,
+      "sqft": "900 sqft",
+      "image": "images/52.jpeg"
+    },
+    {
+      "title": "Eco Tropics @ Taman Kota Masai",
+      "region": "Pasir gudang",
+      "category": "Double Storey",
+      "purpose": "Sale",
+      "price": "RM 590,000",
+      "beds": 4,
+      "baths": 4,
+      "sqft": "20*70 sqft",
+      "image": "images/53.jpeg"
+    },
+    {
+      "title": "Eco Summer @ Jln Ekoflora",
+      "region": "Eco summer",
+      "category": "endlot with land",
+      "purpose": "Rent",
+      "price": "RM 4500/m",
+      "beds": 0,
+      "baths": 0,
+      "sqft": "30*80 sqft",
+      "image": "images/54.jpeg"
+    },
+    {
+      "title": "Taman Daya Double Storey",
+      "region": "Taman daya",
+      "category": "Double Storey",
+      "purpose": "Rent",
+      "price": "RM 2300/m",
+      "beds": 4,
+      "baths": 3,
+      "sqft": "22*70 sqft",
+      "image": "images/55.jpeg"
+    },
+    {
+      "title": "Taman Serene Park",
+      "region": "JB town",
+      "category": "Single storey",
+      "purpose": "Rent",
+      "price": "RM 3000/m",
+      "beds": 4,
+      "baths": 2,
+      "sqft": "22*70 sqft",
+      "image": "images/56.jpeg"
     }
   ]
 }
