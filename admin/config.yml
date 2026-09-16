@@ -22,10 +22,7 @@ collections:
             fields:
               - { label: "标题 Title", name: "title", widget: "string" }
               - { label: "地区 Region", name: "region", widget: "string" }
-              - label: "类型 Category"
-                name: "category"
-                widget: "select"
-                options: ["Condo", "Terrace", "Semi-D", "Bungalow", "Apartment"]
+              - { label: "类型 Category (可自己输入,例如: Double Storey、Bungalow、Studio、Shoplot 等)", name: "category", widget: "string" }
               - label: "买 / 租 Purpose"
                 name: "purpose"
                 widget: "select"

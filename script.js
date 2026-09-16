@@ -12,7 +12,7 @@ const emptyState = document.getElementById("emptyState");
 const regionSelect = document.getElementById("regionSelect");
 const searchInput = document.getElementById("searchInput");
 const typeSelect = document.getElementById("typeSelect");
-const chips = document.querySelectorAll(".chip");
+const chipRow = document.getElementById("categoryChips");
 
 let activeCategory = "all";
 let WHATSAPP_NUMBER = "60123456789";
@@ -79,6 +79,19 @@ function populateRegions() {
     opt.value = r;
     opt.textContent = r;
     regionSelect.appendChild(opt);
+  });
+}
+
+function populateCategories() {
+  // "All" 按钮固定保留，其余的按钮根据 data/properties.json 里实际出现过的 category 自动生成
+  chipRow.querySelectorAll(".chip:not([data-category='all'])").forEach(c => c.remove());
+  const categories = [...new Set(PROPERTIES.map(p => p.category).filter(Boolean))].sort();
+  categories.forEach(c => {
+    const btn = document.createElement("button");
+    btn.className = "chip";
+    btn.dataset.category = c;
+    btn.textContent = c;
+    chipRow.appendChild(btn);
   });
 }
 
@@ -153,13 +166,13 @@ searchInput.addEventListener("input", applyFilters);
 regionSelect.addEventListener("change", applyFilters);
 typeSelect.addEventListener("change", applyFilters);
 
-chips.forEach(chip => {
-  chip.addEventListener("click", () => {
-    chips.forEach(c => c.classList.remove("active"));
-    chip.classList.add("active");
-    activeCategory = chip.dataset.category;
-    applyFilters();
-  });
+chipRow.addEventListener("click", e => {
+  const chip = e.target.closest(".chip");
+  if (!chip) return;
+  chipRow.querySelectorAll(".chip").forEach(c => c.classList.remove("active"));
+  chip.classList.add("active");
+  activeCategory = chip.dataset.category;
+  applyFilters();
 });
 
 document.getElementById("chatForm").addEventListener("submit", e => {
@@ -184,5 +197,6 @@ document.getElementById("year").textContent = new Date().getFullYear();
 (async function init() {
   await Promise.all([loadProperties(), loadProfile()]);
   populateRegions();
+  populateCategories();
   applyFilters();
 })();
