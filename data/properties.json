@@ -417,17 +417,6 @@
       "image": "images/56.jpeg",
       "category": "Single storey",
       "purpose": "Rent"
-    },
-    {
-      "baths": 2,
-      "price": "Rm 2000",
-      "sqft": "1150",
-      "beds": 3,
-      "region": "Pelangi Indah",
-      "title": "Pelangi Indah",
-      "image": "/images/whatsapp-image-2026-09-15-at-1.36.21-pm.jpeg",
-      "category": "Condo",
-      "purpose": "Rent"
     }
   ]
 }
